@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet "href="./styles.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Shruti's Portfolio</div>
+            <div class="right">
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" title="LinkedIn">
+                            <svg class="nav-icon" viewBox="0 0 32 32" width="28" height="28" xmlns="http://www.w3.org/2000/svg">
+                              <rect width="32" height="32" rx="6" fill="#0A66C2"/>
+                              <path d="M9.429 12.857h3.143v10.286H9.429V12.857zm1.571-5.143a1.821 1.821 0 110 3.643 1.821 1.821 0 010-3.643zm4.286 5.143h3.014v1.4h.043c.42-.8 1.443-1.643 2.971-1.643 3.171 0 3.757 2.086 3.757 4.8v5.729h-3.143v-5.086c0-1.214-.021-2.786-1.7-2.786-1.7 0-1.957 1.329-1.957 2.7v5.171h-3.143V12.857z" fill="#fff"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/shrutiroy17" target="_blank" title="GitHub">
+                            <img src="images/github.png" alt="GitHub" class="nav-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://leetcode.com/u/_shruti_17/" target="_blank" title="LeetCode">
+                            <img src="images/icons8-leetcode-24.png" alt="LeetCode" class="nav-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii, my name is <span class="color">Shruti</span>
+                <div>and I am a passionate</div>
+                
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img class="profile-image" src="./passport-size-photo.jpg">
+            </div>
+        </section>
+        <hr>
+        <section class="skills-section">
+          <h1 class="skills-heading">Skills</h1>
+          <div class="skills-horizontal">
+            <div class="skill-block">
+              <div class="vertical-skill-line"></div>
+              <img src="images/html-logo.webp"HTML Logo" class="skill-logo">
+              <span class="skill-title">HTML</span>
+            </div>
+            <div class="skill-block">
+              <div class="vertical-skill-line"></div>
+              <img src="images/css-logo.webp" alt="CSS Logo" class="skill-logo">
+              <span class="skill-title">CSS</span>
+            </div>
+            <div class="skill-block">
+              <div class="vertical-skill-line"></div>
+              <img src="images/javascript-logo.webp" alt="JS Logo" class="skill-logo">
+              <span class="skill-title">JS</span>
+            </div>
+            <div class="skill-block">
+              <div class="vertical-skill-line"></div>
+              <img src="images/dsa.png" alt="DSA Logo" class="skill-logo">
+              <span class="skill-title">DSA</span>
+            </div>
+          </div>
+        </section>
+        <section class="projects-certifications-section">
+          <h1 class="section-heading">Projects</h1>
+          <div class="projects-list">
+            <div class="project-item">
+              <h2 class="project-title">Project 1: Portfolio Website</h2>
+              <p class="project-desc">
+                A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, and certifications. Features a modern responsive design and interactive elements.
+              </p>
+            </div>
+            <div class="project-item">
+              <h2 class="project-title">Project 2: Pharmacy Management System</h2>
+              <p class="project-desc">
+                A web-based application developed using Python (Flask), MySQL, andHTML/CSS to manage pharmacy operations. Features include customer and employee records, prescription management, inventory tracking, and emergency contacts. Designed for ease of use and efficient data handling.
+              </p>
+            </div>
+          </div>
+          <h1 class="section-heading">Certifications</h1>
+          <div class="certifications-list">
+            <div class="certification-item">
+              <a href="https://www.hackerrank.com/profile/shrutiroy2217" target="_blank" style="text-decoration:none; color:inherit;">
+                <h2 class="certification-title">Certification 1: Python (Basic) Certificate</h2>
+                <p class="certification-desc">
+                  Completed a comprehensive course on Python programming language.
+                </p>
+              </a>
+            </div>
+            <div class="certification-item">
+              <a href="https://www.hackerrank.com/profile/shrutiroy2217" target="_blank" style="text-decoration:none; color:inherit;">
+                <h2 class="certification-title">Certification 2: Java (Basic) Certificate</h2>
+                <p class="certification-desc">
+                  Earned certification for mastering Java programming language, including hands-on coding exercises and problem-solving techniques.
+                </p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="contact-section">
+          <h1 class="section-heading">Contact Me</h1>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number">
+            </div>
+            <div class="form-group">
+              <label for="query">Query</label>
+              <textarea id="query" name="query" rows="4" required placeholder="Your Query"></textarea>
+            </div>
+            <button type="submit" class="contact-btn">Send</button>
+          </form>
+        </section>
+    </main>
+    <footer style="text-align:center; margin: 32px 0; color: #00f9ff; font-size: 1.1rem;">
+      Contact me: <a href="mailto:shrutiroy617@gmail.com" style="color:#ff6b81; text-decoration:underline;">shrutiroy617@gmail.com</a>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+        strings: ["Web Developer", " Frontend Developer","Web Designer"] ,
+        typeSpeed: 50,
+        });
+  </script>
+    <script src="index.js"></script>
+</body>
+</html>
